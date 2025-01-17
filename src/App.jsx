@@ -11,7 +11,8 @@
 // import PaginationUsingAPI from "./components/Pagination/PagiantionUsnigAPI";
 // import EmiCalculator from "./components/EmiCalculator/EmiCalculator.jsx"
 // import PasswordGeneretor from "./components/PasswordGenerator/PasswordGenerator";
-import PasswordGeneretor2 from "./components/PasswordGenerator/PasswordGenerator2";
+// import PasswordGeneretor2 from "./components/PasswordGenerator/PasswordGenerator2";
+import Progress from "./components/ProgressBar/Progress";
 const App = () => {
 
 
@@ -28,7 +29,8 @@ const App = () => {
         {/* <Pagination/> */}
         {/* <PaginationUsingAPI/> */}
         {/* <PasswordGeneretor/> */}
-        <PasswordGeneretor2/>
+        {/* <PasswordGeneretor2/> */}
+        <Progress/>
         </>
   );
 };
